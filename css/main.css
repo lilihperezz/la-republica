@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+
+/* cabecera */
+.publicidad {
+	padding: 1% 0% 0%;
+}
+
+.publicidad img {
+	width: 100%;
+	max-width: 950px;
+}
+
+.publicidad .col-xs-6 {
+	padding: 0px;
+	line-height: 30px;
+}
+
+.bar-izq a {
+	padding-right: 3%;
+    font-size: 11px;
+    color: #757474;
+    font-weight: bold;
+}
+
+.publicidad .form-control {
+	display: inline-block;
+    width: 60px;
+    padding: .1rem .50rem;
+    border-left: 1px solid #dcd8d8;
+    border-right:none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0;
+    font-size: 10px;
+}
+
+.publicidad .container {
+	max-width: 950px;
+}
