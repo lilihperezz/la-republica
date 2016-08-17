@@ -11,7 +11,7 @@
 
 .publicidad img {
 	width: 100%;
-	max-width: 950px;
+	max-width: 1000px;
 }
 
 .publicidad .col-xs-6 {
@@ -26,18 +26,66 @@
     font-weight: bold;
 }
 
+.publicidad .btn {
+	padding: 1px 2px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.publicidad .fa {
+	padding-right: 1.5%;
+	padding-left: 1.5%;
+	font-size: 15px;
+}
+
+.publicidad .fa-facebook-f {
+	color:#040d84;
+}
+
+.publicidad .fa-twitter {
+	color:#1aa6fb;
+}
+
+.publicidad .fa-google-plus {
+	color:#d80505;
+}
+
+.publicidad .fa-envelope {
+	color:#fbb81a;
+}
+
+.publicidad .fa-rss {
+	color:#ff3d00;
+}
+
+.publicidad a:focus,.publicidad a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.we {
+	display: inline-block;
+	border-right: 1px solid #dcd8d8;
+    border-left: 1px solid #dcd8d8;
+    width: 95px;
+}
+
+.publicidad .fa-search {
+	color:#a2a2a2;
+	padding-right: 7px;
+}
+
 .publicidad .form-control {
 	display: inline-block;
-    width: 60px;
-    padding: .1rem .50rem;
-    border-left: 1px solid #dcd8d8;
-    border-right:none;
-    border-top: none;
-    border-bottom: none;
+	padding: 0.3rem;
+    width: 65px;
+   	border:none;
     border-radius: 0;
-    font-size: 10px;
+    font-size: 11px;
+    background-color: transparent;
+    font-weight: bold;
 }
 
 .publicidad .container {
-	max-width: 950px;
+	max-width: 1000px;
 }
