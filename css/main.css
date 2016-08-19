@@ -577,6 +577,337 @@
 	color: gray;
 }
 
+/*ESPECIALES*/
+
+.especiales {
+	background-color:gray;
+	padding: 3% 5%;
+	color: white;
+	text-transform: uppercase;
+    width: 50%;
+    margin-top: -6%;
+    margin-left: 25%;
+    margin-bottom: 10%; 
+}
+/*FOTOS-DESTACADAS*/
+
+.secundario {
+	margin-top: 10%;
+	border-top: 5px solid gray;
+	border-bottom: 1px solid gray;
+	padding-bottom: 10%;
+}
+.secundario h5{
+	font-size: 1em;
+	margin-left: 0%;
+	margin-top: -5%;
+	font-weight: bold;
+}
+
+.text-fotos p{
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.fimpresa{
+
+	background-color: gray;
+	padding: 3% 4%;
+	color: white;
+	text-transform: uppercase;
+    width: 50%;
+    margin-top: -6%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+/*EDICION-IMPRESA*/
+
+.principal {
+	margin-top: 10%;
+	border-top: 5px solid #A90C07;
+	border-bottom: 1px solid gray;
+	padding-bottom: 10%;
+}
+.img-republic-impresa {
+	width: 100%;
+	margin-bottom: 10%;
+}
+.eimpresa {
+	background-color: #A90C07;
+	padding: 3% 4%;
+	color: white;
+	text-transform: uppercase;
+    width: 50%;
+    margin-top: -6%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.impreso {
+	margin-top: 5%;
+}
+.ollanta {
+	padding: 30% 5% 3% 5%;
+	background-image: url(../image/img_especiales_aside.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.ollanta p {
+	font-weight: bold;
+	color: black;
+	padding: 3% 4%;
+	background-color: rgba(255,255,255,0.8); 
+}
+.text-extorsion p{
+	font-weight: bold;
+	font-size: 0.8em;
+	padding-top: 30%;
+}
+.text-extorsion a{
+	color: black;
+	text-decoration: underline;
+	font-size: 0.9em;
+}
+.infografias{
+	background-color:gray;
+	padding: 3% 5%;
+	color: white;
+	text-transform: uppercase;
+    width: 50%;
+    margin-top: -6%;
+    margin-left: 25%;
+    margin-bottom: 10%; 
+    border-bottom: 1px solid gray;
+}
+.ollanta-principal{
+	margin-top: 10%;
+	padding-bottom: 10%;
+	border-top:5px solid gray;
+	border-bottom: 1px solid gray;
+}
+.principal h5{
+	text-align: center;
+	margin-bottom: 5%;
+}
+/*Preguntas de ayer y hoy*/
+
+h2,h5{
+	text-align: center;
+}
+.bg-green{
+	background-color:#BEF781;
+	box-sizing: border-box;
+	width: 95%;
+	text-align: center;
+	font-weight: bold;
+}
+.bg-pink{
+	background-color:#F5A9F2;
+	box-sizing: border-box;
+	width: 95%;
+	text-align: center;
+	font-weight: bold;
+}
+.bar{
+	position: relative;
+	height:2rem;
+	background-image: url(../image/barprogress_bg.jpg);
+	float: right;
+	width: 50%;
+	display: inline-block;
+}
+
+.progress{
+	height: 2rem;
+}
+.radio{
+	text-align: center;
+}
+.btn-default{
+	margin-left:20%;
+	padding: 1% 21%;
+	background-color: #A90C07;
+	color:#ffffff;
+	border-radius: 6px;
+	border:none;
+	margin-top: 2%;
+}
+
+h6,.resultdos{
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.hoy,.ayer{
+	border:1px solid #E6E6E6;
+	margin-bottom: 3%;
+	padding-left: 3%;
+	background-color: #ffffff;
+}
+.preguntas{
+	background-image: url(../image/trama_square.jpg);
+	background-size:inherit;
+	padding:14% 4% 3%  3%;
+	margin-top: 8%;
+	margin-bottom: 9%;
+}
+.barprogress{
+	margin-left: 39%;
+	margin-top: -10%;
+	margin-bottom: 4%; 
+}
+.resultados{
+margin-top: 3%;
+text-align: center;
+font-weight: bold;
+}
+.subt{
+	padding-top: 2%;
+	font-weight: bold;
+	font-size: 1em;
+}
+/* CAJA POPULAR */
+
+.popular-pe {
+	margin: 0% 22%;
+    border-bottom: 5px solid yellow;
+    position: relative;
+    top: 17px;
+    padding-bottom: 3%
+}
+
+.popular-pe a {
+	color: red;
+}
+
+/* libero */
+
+.libero-pe {
+	margin: 0% 27%;
+    border-bottom: 5px solid red;
+    position: relative;
+    top: 17px;
+    padding-bottom: 3%
+}
+
+.libero-pe a {
+	color: red;
+}
+
+/* WAPA */
+
+.wapa-pe {
+	margin: 0% 27%;
+    border-bottom: 5px solid red;
+    position: relative;
+    top: 17px;
+    padding-bottom: 3%
+}
+
+.wapa-pe a {
+	color: red;
+}
+
+/* BLOG */
+
+.blogs a {
+	color: black;
+}
+
+
+.blogs .caja {
+    border: 2px solid #cccccc;
+    padding: 4% 1% 0% 1%;
+    font-size: 11px;
+    line-height: 3rem;
+    width: 23%;
+    margin: 10px    
+}
+
+.blogs .jumbotron {
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    line-height: 15px;
+    border-radius: 0;
+}
+
+.blogs img {
+    border: 3px solid white;
+}
+
+.blogs h6 {
+	color: gray;
+}
+/*REPORTAJE CIUDADANO Y MASCOTA*/
+.bg-image{
+	background-image:url(../image/trama_square.jpg);
+	padding:0.8rem;
+}
+.bg-white{
+	background-color: #fff;
+}
+.mb-2{
+	margin-bottom: -2rem;
+}
+@media (max-width: 992px){
+	.tittle-columnista{
+		left: 40%;
+	}
+}
+@media(max-width:768px){
+	.tittle-columnista{
+		left: 38%;
+	}
+}
+/* columnistas */
+
+.colms-square {
+	margin-top: 2%;
+}
+
+.c-box {
+	background-color: #E2E6E9;
+	margin: 0;
+}
+
+.c-box img {
+	border: 5px solid white;	
+}
+
+.card-block h4 {
+	min-height: 4.7rem;
+}
+
+/* footer*/
+.derechos{
+	font-size: 0.8em;
+}
+.foot-header{
+	margin:35% 20%;	
+}
+
+.first{
+	color:#848484;
+	font-size: 0.8em;
+}
+.inferior{
+	background-color: #E6E6E6;
+}
+.second{
+	color:#848484;
+	font-size: 0.8em;
+	margin-right: 1%;
+}
+.foot-links{
+margin-top: 15%;
+margin-bottom: 10%;
+}
+.i-footer{
+text-align: center;
+font-size: 0.9em;
+}
+
 /* footer*/
 .derechos{
 	font-size: 0.8em;
