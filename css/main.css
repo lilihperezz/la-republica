@@ -554,11 +554,10 @@
 
 .blogs .caja {
     border: 2px solid #cccccc;
-    padding: 4% 1% 0% 1%;
+    padding: 10% 3% 0% 3%;
     font-size: 11px;
     line-height: 3rem;
-    width: 23%;
-    margin: 10px    
+    margin-bottom: 10%;    
 }
 
 .blogs .jumbotron {
