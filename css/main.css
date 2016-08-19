@@ -304,31 +304,30 @@
 
 /*COLUMNISTA*/
 .br-t{
-    border-top: 3px solid #B53A27;
+	border-top: 3px solid #B53A27;
 }
 .bgred-colwhite{
-    background-color:#B53A27;
-    color: #fff;
+	background-color:#B53A27;
+	color: #fff;
 }
 .relative{
-    position: relative;
+	position: relative;
 }
-.tittle-columnista{
-    left: 30rem;
-    position: absolute;
-    padding: 0.8rem 1rem;
-    top: -1rem;
+.tittle-columnista {
+	position: absolute;
+	padding: 0rem 1rem;
+	left: 43%;
+	top: -1rem;
 }
 .img-columnista{
-    border: 2px solid #fff;
+	border: 2px solid #fff;
 }
 .tittle-name{
-    font-size: 0.59rem;
+	font-size: 0.59rem;
 }
 .texting{
-    font-size: 0.7rem;
+	font-size: 0.7rem;
 }
-
 /* ultimas noticias */
 
 .list-noticias {
@@ -528,4 +527,25 @@ margin-bottom: 10%;
 .i-footer{
 text-align: center;
 font-size: 0.9em;
+}
+/*REPORTAJE CIUDADANO Y MASCOTA*/
+.bg-image{
+	background-image:url(/image/trama_square.jpg);
+	padding:0.8rem;
+}
+.bg-white{
+	background-color: #fff;
+}
+.mb-2{
+	margin-bottom: -2rem;
+}
+@media (max-width: 992px){
+	.tittle-columnista{
+		left: 40%;
+	}
+}
+@media(max-width:768px){
+	.tittle-columnista{
+		left: 38%;
+	}
 }
